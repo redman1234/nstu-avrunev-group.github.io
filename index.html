@@ -24,7 +24,7 @@
 	        // обрабатываем полученные данные
 	        // выводим имя и фамилию в блок user_info
 	        document.getElementById('user_info').innerHTML = data.response[0].first_name + ' ' + data.response[0].last_name + '<br />';
-	        document.getElementById('user_info2').innerHTML = data.response[0].bdate + ' ' + data.response[0].schools[0] + '<br />';
+	        document.getElementById('user_info2').innerHTML = data.response[0].bdate + ' ';
 	        // создаем img, для отображения аватарки
 	        var image=document.createElement('img');
 	        // из полученных данных берем ссылку на фото
